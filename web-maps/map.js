@@ -29,7 +29,7 @@ map.on("load", function () {
       type: "fill",
       source: {
         type: "geojson",
-        data: "data/countyTypologyCodes.geojson",
+        data: "data/countytype2.geojson",
       },
       paint: {
         "fill-color": [
@@ -39,7 +39,7 @@ map.on("load", function () {
           "#9AB988",
           "Nonspecialized",
           "#BDC2A9",
-          "Maufacturing",
+          "Manufacturing",
           "#E8A97E",
           "Recreation",
           "#ECD099",
