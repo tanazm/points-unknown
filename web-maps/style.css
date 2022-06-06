@@ -1,18 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap');
+
 body {
     margin: 0;
     padding: 0;
-}
+    font-family: 'Roboto', sans-serif;
+  }
+
+.text-container {
+    max-width: 90%; 
+    margin: 0 auto
+  }
+  
+  h1 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight:500;
+  }
+  
+  h2 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight:400;
+    font-size:20px;
+  }
+  
+  p {
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
+  
+  h3 {
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
 
 #map {
     width: 90%;
     height: 600px;
-    margin: 5em auto;
+    margin: 3em auto;
 }
 
 #map2 {
     width: 90%;
     height: 600px;
-    margin: 5em auto;
+    margin: 3em auto;
 }
 
 .mapboxgl-popup-content h4 {
@@ -41,13 +72,13 @@ body {
 	border-radius: 1em;
 	top: 5em;
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-	font: .8em/.9em 'Open Sans', sans-serif;
+	font: .8em/.9em 'Roboto', sans-serif;
 	line-height: 2.5em;
 	padding: 0em 1em 0em;
 	position: absolute;
     left: 1em;
 	max-width: 20%;
-	margin: 0em 5em;
+	margin: 9.5em 5em;
 	z-index: 100;
 }
 .title h1{
@@ -70,8 +101,42 @@ body {
 	margin-top: .75em;
 	margin-bottom: .75em;
 }
+.title2 {
+	background-color: #fff;
+	opacity: 70%;
+	top: 5em;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	font: .8em/.9em 'Roboto', sans-serif;
+	line-height: 2.5em;
+	padding: 0em 0em 0em;
+	position: absolute;
+    left: 1em;
+	max-width: 20%;
+	margin: 72.5em 5em;
+	z-index: 100;
+}
+.title2 h1{
+	opacity: 100%;
+}
+.title2 p {
+	line-height: 1.5em;
+	opacity: 100%;
+}
+.title2 div span {
+	border-radius: 50%;
+	display: inline-block;
+	height: 10px;
+	margin-left: 5px;
+	width: 10px;
+}
+.title2 hr {
+	border-top: .2em dashed #404040;
+	border-bottom: 0em;
+	margin-top: .75em;
+	margin-bottom: .75em;
+}
 .legend {
-    font: 1em/1.5em 'Open Sans', sans-serif;
+    font: 1em/1.5em 'Roboto', sans-serif;
     padding: 1em 1em 2em 1em;
     position: relative;
     right: 10px;
@@ -91,12 +156,12 @@ body {
     width: 10px;
   }
 .legend2 {
-    font: 1em/1.5em 'Open Sans', sans-serif;
+    font: 1em/1.5em 'Roboto', sans-serif;
     padding: 1em 1em 1em 1em;
     position: relative;
     right: 10px;
     z-index: 100;
-    opacity: 100%
+    opacity: 100%;
   }
   .legend2 h4 {
     margin: 0 0 0px;
@@ -107,16 +172,12 @@ body {
     margin-top: 0px;
   }
   .legend2 div span {
-    border-radius: 50%;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
     margin: auto;
     display: inline-block;
-    height: 5px;
+    height: 10px;
     margin-top: 0px;
     margin-right: 10px;
     margin-left: 10px;
-    width: 5px;
+    width: 10px;
     opacity: 100%
   }
