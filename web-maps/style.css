@@ -28,15 +28,34 @@ h2 {
     font-weight:400;
     font-size:20px;
   }
+
+h3 {
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
   
 p {
     font-weight: 300;
     letter-spacing: 1px;
   }
+
+.menu {
+    padding:20px;
+    letter-spacing:.03em;
+    background-color:#00B398;
+  }
   
-h3 {
-    font-weight: 300;
-    letter-spacing: 1px;
+.menu a {
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight:500;
+    font-size:1em;  
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif; 
+  }
+  
+.menu a:hover {
+    color:#454545;
   }
 
 #map {
@@ -60,11 +79,13 @@ h3 {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
 }
+
 .mapboxgl-popup-content h2 {
     font-weight: 500;
     margin-top: 0.5em;
     margin-bottom: 0.3em;
 }
+
 .mapboxgl-popup-content p {
     font-weight: 300;
     margin-top: 0.3em;
@@ -83,16 +104,19 @@ h3 {
 	position: absolute;
     left: 1em;
 	max-width: 20%;
-	margin: 9.5em 10em;
+	margin: 14em 10em;
 	z-index: 100;
 }
+
 .title h1{
 	opacity: 100%;
 }
+
 .title p {
 	line-height: 1.5em;
 	opacity: 100%;
 }
+
 .title div span {
 	border-radius: 50%;
 	display: inline-block;
@@ -100,12 +124,14 @@ h3 {
 	margin-left: 5px;
 	width: 10px;
 }
+
 .title hr {
 	border-top: .2em dashed #404040;
 	border-bottom: 0em;
 	margin-top: .75em;
 	margin-bottom: .75em;
 }
+
 .title2 {
 	background-color: #fff;
 	opacity: 70%;
@@ -117,16 +143,19 @@ h3 {
 	position: absolute;
     left: 1em;
 	max-width: 20%;
-	margin: 72.5em 10em;
+	margin: 77.1em 10em;
 	z-index: 100;
 }
+
 .title2 h1{
 	opacity: 100%;
 }
+
 .title2 p {
 	line-height: 1.5em;
 	opacity: 100%;
 }
+
 .title2 div span {
 	border-radius: 50%;
 	display: inline-block;
@@ -134,12 +163,14 @@ h3 {
 	margin-left: 5px;
 	width: 10px;
 }
+
 .title2 hr {
 	border-top: .2em dashed #404040;
 	border-bottom: 0em;
 	margin-top: .75em;
 	margin-bottom: .75em;
 }
+
 .legend {
     font: 1em/1.5em 'Roboto', sans-serif;
     padding: 1em 1em 2em 1em;
@@ -148,11 +179,13 @@ h3 {
     z-index: 100;
     opacity: 100%;
   }
-  .legend h4 {
+
+.legend h4 {
     margin: 0 0 10px;
     opacity: 100%
   }
-  .legend div span {
+
+.legend div span {
     border-radius: 0%;
     display: inline-block;
     height: 10px;
@@ -160,6 +193,7 @@ h3 {
     margin-right: 20px;
     width: 10px;
   }
+
 .legend2 {
     font: 1em/1.5em 'Roboto', sans-serif;
     padding: 1em 1em 1em 1em;
@@ -168,15 +202,18 @@ h3 {
     z-index: 100;
     opacity: 100%;
   }
-  .legend2 h4 {
+
+.legend2 h4 {
     margin: 0 0 0px;
     opacity: 100%
   }
-  .legend2 p {
+
+.legend2 p {
     padding-top: 0px;
     margin-top: 0px;
   }
-  .legend2 div span {
+
+.legend2 div span {
     margin: auto;
     display: inline-block;
     height: 10px;
