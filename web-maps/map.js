@@ -4,8 +4,13 @@ var map = new mapboxgl.Map({
     style: 'mapbox://styles/tanazm/cl3w3xhe6005k14jzxqbz7dui',
     maxZoom: 9,
     minZoom: 3.2,
-    center: [-108.5, 37.7]
-});
+    center: [-108.5, 37.7],
+    maxBounds: [
+      [-180, 15],
+      [-30, 72],
+    ],
+    projection: 'albers',
+  });
 
 map.on("load", function () {
     map.addLayer(
