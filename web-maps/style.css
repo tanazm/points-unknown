@@ -7,29 +7,34 @@ body {
   }
 
 .text-container {
+    max-width: 80%; 
+    margin: 0 auto
+  }
+
+.viz-container {
     max-width: 90%; 
     margin: 0 auto
   }
   
-  h1 {
+h1 {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight:500;
   }
   
-  h2 {
+h2 {
     letter-spacing: 1px;
     text-transform: uppercase;
     font-weight:400;
     font-size:20px;
   }
   
-  p {
+p {
     font-weight: 300;
     letter-spacing: 1px;
   }
   
-  h3 {
+h3 {
     font-weight: 300;
     letter-spacing: 1px;
   }
@@ -78,7 +83,7 @@ body {
 	position: absolute;
     left: 1em;
 	max-width: 20%;
-	margin: 9.5em 5em;
+	margin: 9.5em 10em;
 	z-index: 100;
 }
 .title h1{
@@ -112,7 +117,7 @@ body {
 	position: absolute;
     left: 1em;
 	max-width: 20%;
-	margin: 72.5em 5em;
+	margin: 72.5em 10em;
 	z-index: 100;
 }
 .title2 h1{
