@@ -3,8 +3,8 @@ var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/tanazm/cl3w3xhe6005k14jzxqbz7dui',
     maxZoom: 9,
-    minZoom: 3,
-    center: [-85.5, 37.7]
+    minZoom: 3.2,
+    center: [-108.5, 37.7]
 });
 
 map.on("load", function () {
@@ -31,7 +31,7 @@ map.on("load", function () {
             type: "geojson",
             data: "data/statefinal.geojson",
           },
-          maxzoom: 6,
+          maxzoom: 5,
           paint: {
             "fill-color": [
               "match",
@@ -63,7 +63,7 @@ map.on("load", function () {
         type: "geojson",
         data: "data/countytype2.geojson",
       },
-      minzoom: 6,
+      minzoom: 5,
       paint: {
         "fill-color": [
           "match",
